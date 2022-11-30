@@ -1,5 +1,169 @@
 # Autocheck-Solutions
 
+
+
+                                                   Part 1:
+                                                   
+   #1 Theory: 
+  
+tag syntax-  A tag is a way to highlight content using special characters. A paired tag consists of a start tag, content, and an end tag
+                                                                                                  
+                                                   
+Task-  Wrap the text in the h1 tag.
+
+The main theme of the web page in the h1 header.           
+______________________________________________________________________________________________________________________                            
+                                                   
+                                                   
+  #2  Theory:
+ 
+ HTML COMMENT SYNTAX
+
+<!--  open the comment tag
+    This is a comment in the HTML code 
+close the comment tag --> 
+  
+  
+  
+  Task-
+  
+   Write html comment with text The commentary answers the question "Why is this part of the code written".
+  ______________________________________________________________________________________________________________________
+                                              
+                                           
+                                                   
+                                                   
+ #3 Theory:
+ 
+ TAG ATTRIBUTES.
+
+tag syntax with attribute
+
+TAG ATTRIBUTES ARE REQUIRED AND OPTIONAL.
+
+Tags can be paired - opening, closing and content between the pair. Tags can be single, have no content or content is located in the attributes.
+
+The opening tag or single tag can contain required and optional attributes.
+
+tag syntax
+
+There are two required attributes for the img tag - src and alt. img is a special tag called replaced lowercase. There are few analogues (video, object). The browser first loads the html and displays the text from the alt, and then loads the image and replaces the text with that image. If the image upload fails, the text remains on the page.
+
+The size of the text is usually smaller than the image, and therefore, to help the browser, you can specify the optional width and height attributes with the image size we want to see on the screen. The real image can be larger or smaller - the browser will adjust the size to the given one. If you do not specify a size, the browser will insert the image with the actual size of the image.
+
+Attention!!!
+
+The width and height attributes must have values as a number without px.
+ 
+ 
+
+
+Task-
+ 
+ Write two required and two optional attributes in the img tag.
+
+Attribute list:
+
+src: file located at the relative path photo.jpg;
+alt: text describing the image Image example;
+width: width 200 pixels;
+height: height 150 pixels.                                           
+______________________________________________________________________________________________________________________
+
+
+
+
+#4    Theory:
+
+
+UNORDERED LIST.
+
+Attention
+
+The ul and ol tags can only have one type of direct descendant - the li tag.
+
+
+
+Task-
+
+Using the tags ul and li list 3 main web technologies. The order of the text must be preserved.
+
+______________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+#5    Theory:
+
+Most tags have a default behavior that can be divided into two groups - inline and block.
+
+A generic block container is div.
+
+The generic inline container is span.
+
+The main properties of block elements are:
+
+the width is determined by the width of the parent;
+width and height can be set;
+there are line breaks before and after the element;
+The main properties of inline elements are:
+
+the width is determined by the width of the content;
+width and height can't be set;
+line break occurs only after filling the width of the parent element;
+
+
+
+
+Task-
+
+Wrap the button inline tags in div containers with the buttons class so that there are three buttons in two rows and each row starts on a new line.
+
+The order of the button elements must be preserved.
+
+
+______________________________________________________________________________________________________________________
+
+
+
+
+
+
+#6   Theory:
+
+
+
+Task-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   Part 2:
+
 #1 Theory  :
 The dl (list) element is similar to the ul and ol elements, with the difference that instead of a single li element inside the dl there are pairs from the title dt and description dd
 
