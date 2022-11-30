@@ -135,25 +135,209 @@ ________________________________________________________________________________
 
 #6   Theory:
 
+LINK.
+
+A link has a special property - it is "transparent" in relation to the block or inline property of its children.
+
+Therefore, depending on which element the link wraps its behavior changes.
+
+That is a link can behave like a block element if it has wrapped a div or li. Or it can behave like an inline element if it has wrapped a span or img.
+
 
 
 Task-  
 
+The source code contains two links with the same content - the line Text.
+
+Links have class names - link-inline and link-block.
+
+For the first link (with the class link-inline): wrap the content of the link - the Text line in the inline span tag.
+
+For the second link (with the class link-block): wrap the content of the link - the Text line in the block p tag for the second link.
+
+Visually make sure that the inline or block property is applied to each of the links.
+
+The order of the a elements must be preserved.
+
+__________________________________________________________________________________________________________________________________________________
 
 
 
 
 
+#7 Theory: DOCUMENT FLOW.
+
+Vertical flow. Ordered list.
+
+
+Task- 
+
+~ Correct the numbering order by removing the ol tag attribute.
+
+~ Arrange the li elements in the desired order according to the boot sequence description. The 1 number must correspond to the first file that will be loaded. Number 2 to the second, number 3 to the third.
+_____________________________________________________________________________________________________________________________________________________
 
 
 
 
 
+#8 Theory:
+
+Two rules for grouping tags:
+
+If a certain set of tags is repeated and serves to display one theme, then such a set should be wrapped in a tag.
+If, after wrapping a set of tags, a new set of duplicate tags is formed (the general theme is a certain set of themes or a certain design), then see rule 1.
+
+
+Task-
+
+~ Group the tag sets using the ul list and the li elements.
+~ The ul tag must have a class with the value (plural noun) cards.
+~ The li tag must have a class with the value (singular noun) card.
+
+_____________________________________________________________________________________________________________________________________________________
+
+
+#9 Theory:
+
+The rel attribute means "relationship". It is used in the link and a elements and describes, with different values, how the specified element is related to the document that contains it.
+
+For example, the code below points to a file, and the rel attribute tells the browser that the given file is a style sheet.
+
+<link href="style.css" rel="stylesheet">
+For links that take the user to a new page in a new tab, use the target attribute with a _blank value.
+
+There are some JavaScript functions that allow a new tab to take control of the parent window. If you link to an external website where a hacker was able to post malicious code, then that external website can use the JavaScript window.opener method to modify the original page (your website) to steal information and distribute malicious code. To prevent this behavior special values ​​ of the rel attribute are used:
+
+noopener, which prevents a new tab from using this JavaScript function;
+nofollow, which prohibits the search engine from following the link and thereby clearly indicates to search engines that your site is not related to a hacker attack;
+noreferrer, which prevents the window opened by a link from passing the URL of the parent page.
 
 
 
 
-                                                   
+Task:  
+
+The link should open in a new tab. For security reasons, you need to break the link between the new tab and the tab where the link is located.
+
+To do this add the necessary values of the target and rel attributes to the link.
+
+_____________________________________________________________________________________________________________________________________________________
+
+
+
+#10 Theory:
+
+LINK TO THE DOWNLOADED FILE. DOWNLOAD ATTRIBUTE
+
+
+Task-Add to the link the attribute required to download the file
+
+_____________________________________________________________________________________________________________________________________________________
+
+
+#11 Theory:
+
+LINK FOR PHONE AND EMAIL.
+
+Special href values.
+
+
+
+Task- 
+
+Add special href values to the links.
+
+
+
+
+_____________________________________________________________________________________________________________________________________________________
+
+
+#12 Theory:
+
+AN ANCHOR LINK
+
+
+Task-
+
+Arrange the values of the id attributes to navigate the page using links from the aside.
+
+_____________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+#13 Theory:
+
+AN IMAGE WITH A CAPTION. THE FIGURE AND FIGCAPTION ELEMENTS.
+
+
+Task- 
+
+Place the tags inside the figure tag and the content inside the figcaption tag.
+
+_____________________________________________________________________________________________________________________________________________________
+
+
+
+#14 Theory:   Only one img tag is allowed inside a link.
+
+Attention!!!
+
+Any number of svg elements can be placed inside a link. But the usage of svg will be covered later in the following topics.
+
+
+Task- 
+
+The two images must be a link to the same page. Place your tags correctly. It is allowed to add only one element - one more link.
+
+_____________________________________________________________________________________________________________________________________________________
+
+
+
+
+#15 Theory:
+
+Most web servers are configured so that when accessed by the site name (for example my.github.io), the server looks for a file called index.html If no such file is found, then an error 404 - page not found will be displayed.
+
+To refer to any other file - for example about.html, you need to explicitly specify the file name: my.github.io/about.html
+
+
+Task-
+
+The text in the comment contains a description of the files and folders structure (directories) for posting on github.
+
+To make the project appear as a web page web server github should find the file index.html and execute it. So you need a file in which the application will be launched (the entry point to the application).
+
+Replace the file name hw.html, so the application starts executing from reading this particular file.
+
+_____________________________________________________________________________________________________________________________________________________
+
+
+
+
+#16 Theory:
+
+In windows filenames are case-insensitive: (cat.JPG and cat.jpg are the same file)
+In linux filenames are case sensitive: (cat.JPG and cat.jpg are two different files)
+
+
+Task-
+
+There is a structure of files and folders (directories)
+
+images/logo.png
+pages/about.html
+index.html
+
+There is some code that works in widows, but it will not work in linux. Correct the letter case in the href and src attributes.
+
+
+_____________________________________________________________________________________________________________________________________________________
+
+                                                  
                                                    
                                                    
                                                    
