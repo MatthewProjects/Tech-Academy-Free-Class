@@ -359,11 +359,44 @@ ________________________________________________________________________________
 
 
 <table>
+<style>
+  table {
+  box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+  margin: 3rem;
+  font-family: sans-serif;
+  border-collapse: collapse;
+}
+</style>
+  
   <caption>
+
+<style>
+caption {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+
+</style>
+    
+
+    
+
     What is the difference between block, inline and inline-block
   </caption>
- 
-     <thead>
+
+    <thead>
+
+
+<style>
+
+thead {
+  background-color: #555;
+  color: #fff;}
+
+
+</style>
+
     <tr>
       <th>/</th>
       <th>block</th>
@@ -372,7 +405,7 @@ ________________________________________________________________________________
     </tr>
   </thead>
   <tbody>
-   
+  
       
       
       <tr>
@@ -381,20 +414,31 @@ ________________________________________________________________________________
       
     </tr>
     <tr>
-    
+    <style>
+
+
+td,
+th {
+  padding: 0.5rem 1rem;
+  border: 1px solid #888;
+  text-align: center;
+}
+
+
+    </style>
         
         
         <th>width determined </th>
       <td>by width of parent element</td>
       
-       <td colspan="2">by width of content</td>
+      <td colspan="2">by width of content</td>
 
 
 
- <tr>
+<tr>
       <th>Is it possible to set height and width</th>
       <td>yes</td>
-       <td>no</td>
+      <td>no</td>
       <td>yes</td>
       
       
@@ -406,9 +450,15 @@ ________________________________________________________________________________
         <th>How line wrapping works </th>
       <td>always on a new line</td>
       
-       <td colspan="2">only when filling the width of the parent element</td>
+      <td colspan="2">only when filling the width of the parent element</td>
+<style>
 
- </tr>
+td
+[colspan] {
+  background-color: #eee;
+}
+</style>
+</tr>
   </tbody>
 </table>
 
