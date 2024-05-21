@@ -1,0 +1,105 @@
+2023-07-28 16:42:43.283 [info] Extension host with pid 47112 started
+2023-07-28 16:42:43.441 [info] Lock '/Users/matthewtroughton/.local/share/code-server/User/workspaceStorage/-445b83e6/vscode.lock': Lock acquired.
+2023-07-28 16:42:43.515 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-07-28 16:42:43.621 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-07-28 16:42:43.817 [info] Eager extensions activated
+2023-07-28 16:42:43.818 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-07-28 16:42:43.818 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-07-28 16:42:49.132 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-07-28 16:42:51.467 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-07-28 16:42:51.472 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-07-28 16:43:24.754 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-07-28 16:43:24.755 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-07-28 17:21:43.460 [info] Extension host terminating: received terminate message from renderer
+2023-07-28 17:21:43.471 [info] Lock '/Users/matthewtroughton/.local/share/code-server/User/workspaceStorage/-445b83e6/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-07-28 17:21:44.015 [error] Canceled: Canceled
+	at new h (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:99:42413)
+	at t.O (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:111:11236)
+	at Proxy.U.<computed>.q.charCodeAt.U.<computed> (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:111:8675)
+	at e.$wL.g (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:99:63549)
+	at e.$wL.executeCommand (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:99:62973)
+	at P.registerCommand.description (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:99:62280)
+	at e.$wL.h (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:99:64085)
+	at e.$wL.g (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:99:63073)
+	at e.$wL.executeCommand (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:99:62973)
+	at Object.executeCommand (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:117:20970)
+	at i.D [as value] (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/extensions/git/dist/main.js:2:1260624)
+	at v.w (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at v.x (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at v.fire (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at Object.m [as dispose] (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/extensions/git/dist/main.js:2:1276205)
+	at /Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/extensions/git/dist/main.js:2:1280785
+	at Array.forEach (<anonymous>)
+	at g.dispose (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/extensions/git/dist/main.js:2:1280771)
+	at o.<anonymous> (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:95:4163)
+	at o.dispose (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:95:4298)
+	at o.<anonymous> (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/extensions/git/dist/main.js:2:1262644)
+	at o.dispose (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:95:4298)
+	at D (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:10:11731)
+	at u.Z (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:113:10369)
+	at /Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:113:8331
+	at Array.map (<anonymous>)
+	at u.S (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:113:8318)
+	at u.terminate (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:113:8590)
+	at c.terminate (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:117:1532)
+	at n (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:127:32819)
+	at i.value (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:127:30869)
+	at v.w (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at v.fire (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:72:13931)
+	at s.z (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:72:16976)
+	at i.value (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:72:15428)
+	at v.w (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at v.fire (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:72:11705)
+	at i.value (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:72:10992)
+	at v.w (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at v.fire (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at v.u (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:127:19064) setContext undefined
+2023-07-28 17:21:44.099 [error] Canceled: Canceled
+	at new h (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:99:42413)
+	at t.O (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:111:11236)
+	at Proxy.U.<computed>.q.charCodeAt.U.<computed> (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:111:8675)
+	at e.$wL.g (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:99:63549)
+	at e.$wL.executeCommand (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:99:62973)
+	at P.registerCommand.description (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:99:62280)
+	at e.$wL.h (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:99:64085)
+	at e.$wL.g (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:99:63073)
+	at e.$wL.executeCommand (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:99:62973)
+	at Object.executeCommand (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:117:20970)
+	at t.$Fjc.set b [as b] (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/extensions/github/dist/extension.js:2:675750)
+	at /Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/extensions/github/dist/extension.js:2:676397
+	at i.value (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/extensions/git/dist/main.js:2:1347758)
+	at v.w (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at v.x (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at v.fire (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at Object.m [as dispose] (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/extensions/git/dist/main.js:2:1276205)
+	at /Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/extensions/git/dist/main.js:2:1280785
+	at Array.forEach (<anonymous>)
+	at g.dispose (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/extensions/git/dist/main.js:2:1280771)
+	at o.<anonymous> (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:95:4163)
+	at o.dispose (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:95:4298)
+	at o.<anonymous> (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/extensions/git/dist/main.js:2:1262644)
+	at o.dispose (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:95:4298)
+	at D (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:10:11731)
+	at u.Z (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:113:10369)
+	at /Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:113:8331
+	at Array.map (<anonymous>)
+	at u.S (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:113:8318)
+	at u.terminate (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:113:8590)
+	at c.terminate (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:117:1532)
+	at n (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:127:32819)
+	at i.value (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:127:30869)
+	at v.w (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at v.fire (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:72:13931)
+	at s.z (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:72:16976)
+	at i.value (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:72:15428)
+	at v.w (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at v.fire (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:72:11705)
+	at i.value (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:72:10992)
+	at v.w (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at v.fire (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at v.u (/Users/matthewtroughton/.local/lib/code-server-4.15.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:127:19064) setContext undefined
+2023-07-28 17:21:44.216 [info] Extension host with pid 47112 exiting with code 0

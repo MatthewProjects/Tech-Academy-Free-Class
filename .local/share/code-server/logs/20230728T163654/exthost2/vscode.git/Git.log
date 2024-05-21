@@ -1,0 +1,17 @@
+2023-07-28 16:42:49.389 [info] Log level: Info
+2023-07-28 16:42:49.405 [info] Validating found git in: "/usr/bin/git"
+2023-07-28 16:42:49.476 [info] Using git "2.39.2 (Apple Git-143)" from "/usr/bin/git"
+2023-07-28 16:42:49.545 [info] > git rev-parse --show-toplevel [59ms]
+2023-07-28 16:42:49.577 [info] > git rev-parse --git-dir --git-common-dir [26ms]
+2023-07-28 16:42:49.597 [info] Open repository: /Users/matthewtroughton/Desktop/github-spaces/Tech-Academy-Free-Class-main/Tech-Academy-Free-Class
+2023-07-28 16:42:49.721 [info] > git config --get commit.template [105ms]
+2023-07-28 16:42:49.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [119ms]
+2023-07-28 16:42:49.853 [info] > git status -z -uall [67ms]
+2023-07-28 16:42:49.930 [info] > git config --get commit.template [51ms]
+2023-07-28 16:42:49.936 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [44ms]
+2023-07-28 16:42:49.968 [info] > git status -z -uall [27ms]
+2023-07-28 16:42:50.209 [info] > git check-ignore -v -z --stdin [42ms]
+2023-07-28 16:42:53.078 [info] > git show --textconv :index.html [136ms]
+2023-07-28 16:42:53.079 [info] > git ls-files --stage -- /Users/matthewtroughton/Desktop/github-spaces/Tech-Academy-Free-Class-main/Tech-Academy-Free-Class/index.html [89ms]
+2023-07-28 16:42:53.120 [info] > git cat-file -s 591f9619aff09227dde92e91cabe9239dfd57811 [28ms]
+2023-07-28 17:06:52.917 [info] > git check-ignore -v -z --stdin [81ms]

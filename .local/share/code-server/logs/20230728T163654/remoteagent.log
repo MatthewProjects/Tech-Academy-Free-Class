@@ -1,0 +1,18 @@
+2023-07-28 16:36:55.358 [info] 
+
+
+
+
+2023-07-28 16:36:55.358 [info] Extension host agent started.
+2023-07-28 16:36:55.374 [info] Started initializing default profile extensions in extensions installation folder. file:///Users/matthewtroughton/.local/share/code-server/extensions
+2023-07-28 16:36:55.551 [info] Completed initializing default profile extensions in extensions installation folder. file:///Users/matthewtroughton/.local/share/code-server/extensions
+2023-07-28 16:39:18.172 [info] [127.0.0.1][7ea11d40][ManagementConnection] New connection established.
+2023-07-28 16:39:21.130 [info] [127.0.0.1][28bc958c][ExtensionHostConnection] New connection established.
+2023-07-28 16:39:21.228 [info] [127.0.0.1][28bc958c][ExtensionHostConnection] <47076> Launched Extension Host Process.
+2023-07-28 16:42:37.586 [info] [127.0.0.1][7ea11d40][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-07-28 16:42:37.967 [info] [127.0.0.1][28bc958c][ExtensionHostConnection] <47076> Extension Host Process exited with code: 0, signal: null.
+2023-07-28 16:42:39.958 [info] [127.0.0.1][5325d82d][ManagementConnection] New connection established.
+2023-07-28 16:42:41.752 [info] [127.0.0.1][124776c6][ExtensionHostConnection] New connection established.
+2023-07-28 16:42:41.843 [info] [127.0.0.1][124776c6][ExtensionHostConnection] <47112> Launched Extension Host Process.
+2023-07-28 17:21:43.451 [info] [127.0.0.1][5325d82d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-07-28 17:21:44.260 [info] [127.0.0.1][124776c6][ExtensionHostConnection] <47112> Extension Host Process exited with code: 0, signal: null.
