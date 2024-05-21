@@ -1,0 +1,62 @@
+git status
+git clean -f
+git clean -f
+git status
+cd
+ls
+cd git
+git status
+git add 	.ssh/
+git add .zsh_history
+git push
+ git push --set-upstream origin main
+git commit
+git status
+git clean -f
+git.clean -f
+git clean -f
+git remote -v
+git status
+git push
+git help config
+git clean -f
+git commit
+git remote -v
+cd Desktop
+git remote add origin
+git remote add origin https://github.com/MatthewProjects/Autocheck-Solutions.git
+git remote -v
+git push
+git remote set-url origin  https://github.com/MatthewProjects/Autocheck-Solutions.git
+git push --set-upstream origin main
+git remote set-url origin https://github.com/MatthewProjects/Autocheck-Solutions.git
+git push --set upstream origin main
+git push --set-upstream origin main
+git pull origin main --rebase
+git add.
+git add
+git add --all
+git commit - changes
+git remote -v
+git remote -v
+git remote set-url origin https://github.com/MatthewProjects/Autocheck-Solutions.git
+git remote -v
+git remote remove origin
+git remote -v
+  git remote add origin https://github.com/MatthewProjects/Autocheck-Solutions.git
+  git remote set-url --push origin git@github.com:YourUsername/Markup-hw-go.it.git
+git remote -v
+git remote -v
+matthewtroughton@Matts-MacBook-Air-3 ~ % git remote -v\
+origin	https://github.com/MatthewProjects/Autocheck-Solutions.git (fetch)\
+origin	git@github.com:MatthewProjects/Markup-hw-go.it.git
+git remote set-url --push origin git@github.com:MatthewProjects/Markup-hw-go.it.git
+git push origin main
+git push origin master
+git pish origin main
+git push origin main
+ls -al ~/.ssh
+ls -al ~/.ssh
+cat ~/.ssh/id_rsa.pub
+cat /Users/matthewtroughton/.ssh/id_rsa.pub
+nano ~/.ssh/config

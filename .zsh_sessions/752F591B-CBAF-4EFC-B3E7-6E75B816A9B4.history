@@ -1,0 +1,75 @@
+ssh-add
+git push origin main
+git push
+ls -al ~/.ssh
+ssh-keygen -t ed25519 -C
+ssh-keygen -t ed25519 -C mvt0408@gmail.com
+ssh-keygen -t ed25519 -C mvt0408@gmail.com\
+
+clip < ~/.ssh/id_ed25519.pub
+clip < ~/.ssh/id_ed25519.pub 
+ls -al ~/.ssh
+ls -al ~/.ssh
+ssh-keygen -t ed25519 -C mvt0408@gmail.com
+cat /Users/matthewtroughton/.ssh/id_ed25519.pub
+git push origin main
+git pull
+git branch --set-upstream-to=origin/main main
+git pull
+git config pull.ff only  
+git pull
+git pull --no-ff
+git fetch
+git git reset --hard origin/main
+git reset --hard origin/main
+git pull
+git push
+git pull
+git push origin main
+git pull
+git push
+git pull --rebase
+git pull origin main --rebase
+git push origin main
+git branch -vv
+git pull origin main
+git push origin main
+git fetch --all
+git status
+git clean -n
+git clean -f
+git status
+git clean -n
+git clean -f
+rm -rf .Puffin
+git statua
+git status
+rm .rbenv/
+rf .rbenv/
+-rf .rbenv/
+rm -rf.rbenv/
+ rm -rf.rbenv
+rm -rf .rbenv/
+git status
+rm 	.bash_sessions/
+rm .bash_sessions/
+rm .idlerc/
+rm .npm/
+rm -rf .npm/
+git status
+rm 	.npm-global/
+rm -rf .npm-global/
+git status
+git add .bash_sessions/ .cache/ .config/ .fontconfig/ .idlerc/ .local/ .ssh/ .vscode/extensions/ .zsh_history .zsh_sessions/
+git status
+git add .bash_sessions/ 
+git commit -m "Made modifications to files in the .bash_sessions/ directory"
+git status
+git remote -v
+git add 
+git status
+git push
+git pull origin main
+git prune
+git add .ssh/
+git commit

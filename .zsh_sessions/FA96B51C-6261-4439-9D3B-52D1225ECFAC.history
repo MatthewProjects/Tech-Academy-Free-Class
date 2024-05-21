@@ -1,0 +1,4 @@
+git status
+git clean -f
+git clean -f
+git status

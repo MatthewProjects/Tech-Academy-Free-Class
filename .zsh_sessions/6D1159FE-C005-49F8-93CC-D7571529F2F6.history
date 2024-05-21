@@ -1,0 +1,17 @@
+git status
+git clean -f
+git clean -f
+git status
+cd
+ls
+cd git
+git status
+git add 	.ssh/
+git add .zsh_history
+git push
+ git push --set-upstream origin main
+git commit
+git status
+git clean -f
+git.clean -f
+git clean -f

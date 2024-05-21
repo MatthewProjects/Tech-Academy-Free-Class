@@ -1,0 +1,5 @@
+git clean -f
+ git clean -f
+git clean -n
+git clean -n
+git clean -f
