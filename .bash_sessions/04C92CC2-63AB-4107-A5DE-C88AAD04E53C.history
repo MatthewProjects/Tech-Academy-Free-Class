@@ -1,0 +1,23 @@
+`chsh -s /bin/zsh`
+`chsh -s /bin/zsh`
+`chsh -s /bin/zsh`.
+clear
+git clone 
+clear
+git clone https://github.com/gitdagray/html_course.git
+cd html_course
+echo $SHELL
+echo Hello
+touch my_super_cool_file
+chsh -s /bin/zsh
+chsh -s /bin/zsh
+chsh -s /bin/zsh
+exec zhc
+clear
+chsh -s /bin/zsh
+https://www.google.com/search?client=safari&rls=en&q=%2FUsers%2Fmatthewtroughton%2F.zshrc%3Asource%3A3%3A+no+such+file+or+directory%3A+%2Fusr%2Flocal%2Fshare%2Fzsh-autocomplete%2Fzsh-autocomplete.plugin.zsheval&ie=UTF-8&oe=UTF-8
+find / -name zsh-autocomplete.plugin.zsheval 2>/dev/null
+ls /usr/local/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+ls -l /usr/local/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+cd d
+$ cd d
