@@ -1,0 +1,82 @@
+{
+	"name": "html-class-suggestions",
+	"displayName": "HTML Class Suggestions",
+	"description": "Adds code completion suggestions to HTML class attributes based on the CSS files in your workspace.",
+	"version": "1.2.1",
+	"categories": [
+		"Programming Languages",
+		"Other"
+	],
+	"keywords": [
+		"html",
+		"css"
+	],
+	"publisher": "AndersEAndersen",
+	"author": {
+		"name": "Anders Ellenshøj Andersen",
+		"email": "andersa@atlab.dk"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andersea/HTMLClassSuggestionsVSCode"
+	},
+	"bugs": {
+		"url": "https://github.com/andersea/HTMLClassSuggestionsVSCode/issues"
+	},
+	"icon": "images/icon.png",
+	"license": "MIT",
+	"preview": false,
+	"engines": {
+		"vscode": "^1.77.0"
+	},
+	"activationEvents": [
+		"onLanguage:html",
+		"onLanguage:cshtml",
+		"onLanguage:php",
+		"onLanguage:vue",
+		"onLanguage:typescriptreact",
+		"onLanguage:javascript"
+	],
+	"main": "./out/extension",
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"clean": "rimraf out/src/*",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/css": "^0.0.33",
+		"@types/glob": "^8.1.0",
+		"@types/lodash.flow": "^3.5.7",
+		"@types/mocha": "^10.0.1",
+		"@types/node": "16.x",
+		"@types/vscode": "^1.77.0",
+		"@typescript-eslint/eslint-plugin": "^5.56.0",
+		"@typescript-eslint/parser": "^5.56.0",
+		"@vscode/test-electron": "^2.3.0",
+		"eslint": "^8.36.0",
+		"glob": "^8.1.0",
+		"mocha": "^10.2.0",
+		"rimraf": "^3.0.2",
+		"typescript": "^4.9.5"
+	},
+	"dependencies": {
+		"css": "^3.0.0",
+		"lodash.flow": "^3.5.0",
+		"xxhashjs": "^0.2.2"
+	},
+	"__metadata": {
+		"id": "9e69a2cb-2094-4a0a-8777-93aae5432a49",
+		"publisherId": "bf49635a-e9f6-4094-8feb-d9de1818d2ad",
+		"publisherDisplayName": "Anders Ellenshøj Andersen",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": true,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1683935806566,
+		"preRelease": false
+	}
+}

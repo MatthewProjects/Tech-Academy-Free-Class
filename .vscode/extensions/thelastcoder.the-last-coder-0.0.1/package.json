@@ -1,0 +1,42 @@
+{
+	"name": "the-last-coder",
+	"displayName": "The Last Coder",
+	"description": "A dark theme for all-day-long comfortable work ",
+	"version": "0.0.1",
+	"publisher": "TheLastCoder",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/StefanosGiannakis/the-last-coder-vs-code-theme"
+	},
+	"keywords": [
+		"theme",
+		"dark",
+		"dark theme",
+		"the last coder",
+		"coder"
+	],
+	"engines": {
+		"vscode": "^1.68.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "The Last Coder",
+				"uiTheme": "vs-dark",
+				"path": "./themes/The Last Coder-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "3f356f10-7a5e-48f5-ae5b-cc0a29a57ab1",
+		"publisherId": "d33cffd5-390f-49f4-88ca-f5d39ac8a3d4",
+		"publisherDisplayName": "The Last Coder",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1697525410012
+	}
+}

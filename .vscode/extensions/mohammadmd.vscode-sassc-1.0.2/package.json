@@ -1,0 +1,114 @@
+{
+	"publisher": "MohammadMD",
+	"name": "vscode-sassc",
+	"displayName": "VSCode SASS/SCSS Compiler",
+	"description": "A tool for compiling sass/scss without need of NodeJS to be installed",
+	"icon": "res/icon/logo@128.png",
+	"version": "1.0.2",
+	"repository": "https://github.com/MohammadMD1383/vscode-sassc",
+	"homepage": "https://github.com/MohammadMD1383/vscode-sassc/blob/master/README.md",
+	"bugs": {
+		"url": "https://github.com/MohammadMD1383/vscode-sassc/issues"
+	},
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "vscode-sassc.singleCompilationCompileCurrentFile",
+				"title": "Compile Current File",
+				"enablement": "editorLangId == scss || editorLangId == sass",
+				"category": "VSCode SASSC",
+				"icon": {
+					"dark": "res/icon/compile-single-file/sassc-compile-single-file@dark.svg",
+					"light": "res/icon/compile-single-file/sassc-compile-single-file@light.svg"
+				}
+			},
+			{
+				"command": "vscode-sassc.compileProject",
+				"title": "Compile Project",
+				"enablement": "vscode-sassc.isSassProject",
+				"category": "VSCode SASSC"
+			},
+			{
+				"command": "vscode-sassc.watchProject",
+				"title": "Watch Project",
+				"enablement": "vscode-sassc.isSassProject && resourceFilename == sassconfig.json",
+				"category": "VSCode SASSC"
+			},
+			{
+				"command": "vscode-sassc.showActiveWatches",
+				"title": "Show Active Watches",
+				"enablement": "vscode-sassc.isSassProject",
+				"category": "VSCode SASSC"
+			},
+			{
+				"command": "vscode-sassc.destroyWatch",
+				"title": "Destroy Watch",
+				"enablement": "vscode-sassc.isSassProject",
+				"category": "VSCode SASSC"
+			}
+		],
+		"menus": {
+			"editor/title": [
+				{
+					"command": "vscode-sassc.singleCompilationCompileCurrentFile",
+					"when": "editorLangId == scss || editorLangId == sass",
+					"group": "navigation"
+				}
+			],
+			"explorer/context": [
+				{
+					"command": "vscode-sassc.watchProject",
+					"when": "vscode-sassc.isSassProject && resourceFilename == sassconfig.json",
+					"group": "2_workspace"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"dependencies": {
+		"sass": "^1.35.1",
+		"source-map": "^0.7.3"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.2.2",
+		"@types/node": "14.x",
+		"@types/sass": "^1.16.0",
+		"@types/vscode": "^1.50.0",
+		"@typescript-eslint/eslint-plugin": "^4.26.0",
+		"@typescript-eslint/parser": "^4.26.0",
+		"eslint": "^7.27.0",
+		"glob": "^7.1.7",
+		"mocha": "^8.4.0",
+		"typescript": "^4.3.2",
+		"vscode-test": "^1.5.2"
+	},
+	"__metadata": {
+		"id": "9c900064-8d44-4d2b-a2f5-87829d17bdfb",
+		"publisherId": "c7098614-e595-4eeb-84b7-11c7c9aa16b5",
+		"publisherDisplayName": "MMD",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1679090019965,
+		"preRelease": false
+	}
+}

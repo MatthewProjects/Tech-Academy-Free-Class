@@ -1,0 +1,113 @@
+{
+	"name": "prettier-config",
+	"displayName": "PrettierConfig for VS Code",
+	"description": "Generate .prettierrc & .prettierignore in the workspace",
+	"version": "1.4.2",
+	"publisher": "whosydd",
+	"main": "./extension.js",
+	"engines": {
+		"vscode": "^1.57.0"
+	},
+	"license": "MIT",
+	"categories": [
+		"Formatters"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/whosydd/prettier-config.git"
+	},
+	"author": "GY <dev.youngkwok718@gmail.com>",
+	"icon": "icon.png",
+	"keywords": [
+		"prettier",
+		"prettier-config"
+	],
+	"activationEvents": [
+		"onCommand:prettier-config"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "prettier-config",
+				"category": "prettier-config",
+				"title": "Generate .prettierrc"
+			}
+		],
+		"menus": {
+			"explorer/context": [
+				{
+					"command": "prettier-config",
+					"when": "explorerResourceIsFolder",
+					"group": "EditorConfig@2"
+				}
+			]
+		},
+		"configuration": {
+			"type": "object",
+			"title": "prettier-config",
+			"properties": {
+				"prettier-config.gist": {
+					"type": "object",
+					"required": [
+						"configRaw"
+					],
+					"items": {
+						"type": "string"
+					},
+					"description": "Sync configuration files from gist. Use raw URL."
+				},
+				"prettier-config.ignore": {
+					"type": "boolean",
+					"default": false,
+					"description": "Toggle whether to create .prettierignore"
+				},
+				"prettier-config.tip": {
+					"type": "boolean",
+					"default": true,
+					"description": "Toggle whether to display the prompt to install prettier."
+				},
+				"prettier-config.tool": {
+					"type": "string",
+					"enum": [
+						"npm",
+						"yarn",
+						"pnpm"
+					],
+					"description": "You can set yarn or pnpm. Default is npm."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"package": "vsce package"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.4",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.46.0",
+		"eslint": "^7.19.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.2.1",
+		"prettier": "^2.3.2",
+		"typescript": "^4.1.3",
+		"vscode-test": "^1.5.0"
+	},
+	"extensionDependencies": [
+		"esbenp.prettier-vscode"
+	],
+	"dependencies": {
+		"download": "^8.0.0"
+	},
+	"__metadata": {
+		"id": "c1b32833-ba78-4d21-b366-737d7e93d005",
+		"publisherId": "09c58f9d-ba88-4bfb-9ace-f97ffd9c48fa",
+		"publisherDisplayName": "whosydd",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1672351142094,
+		"preRelease": false
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"name": "code-server-npm",
+	"displayName": "code-server NPM Install",
+	"description": "A quick NPM install extension for code-server",
+	"version": "0.0.2",
+	"publisher": "qubedev",
+	"engines": {
+		"vscode": "^1.22.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"main": "./dist/index",
+	"activationEvents": [
+		"*"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "codeServerNPM.npm",
+				"title": "code-server-npm: Install NPM"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p tsconfig-prod.json",
+		"watch": "tsc -w -p tsconfig.json",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"lint": "tslint -c tslint.json 'src/**/*.ts'"
+	},
+	"devDependencies": {
+		"@types/node": "^9.6.6",
+		"prettier": "^1.12.1",
+		"tslint": "^5.9.1",
+		"typescript": "^2.8.3",
+		"vscode": "^1.1.14"
+	},
+	"dependencies": {},
+	"repository": "git+https://github.com/haydennyyy/code-server-npm",
+	"__metadata": {
+		"id": "b360e622-14a0-450a-8326-e20b9f63d937",
+		"publisherId": "69e348b7-6b50-4a59-9290-2610962d8ae0",
+		"publisherDisplayName": "qubedev",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1690582550997,
+		"preRelease": false
+	}
+}
