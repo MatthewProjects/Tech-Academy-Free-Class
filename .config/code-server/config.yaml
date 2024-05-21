@@ -1,0 +1,4 @@
+bind-addr: 192.168.0.206:8080
+auth: password
+password: 5611d20dfa56135edc3d301c
+cert: false
